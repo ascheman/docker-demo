@@ -1,0 +1,2 @@
+alias dockertunnel='export DOCKER_HOST=tcp://localhost:2375'
+alias dockernative='export DOCKER_HOST=tcp://ga-ubuntu:2375'
