@@ -6,7 +6,7 @@ MAINTAINER Gerd Aschemann <gerd@aschemann.net>
 # https://github.com/ascheman/docker-demo/raw/master/data/hello-world.tar.bz2
 
 # This does not work, since the TAR file is not unpacked!
-ADD http://aschemann.net/tmp/hello-world.tar.bz2 /cmd
+ADD http://aschemann.net/tmp/hello-world.tar.bz2 /
 
 # Use this instead ...
 # RUN cd / && wget http://aschemann.net/tmp/hello-world.tar.bz2 && \
